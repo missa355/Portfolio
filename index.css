@@ -1,0 +1,241 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.introduction{
+    background-image: url("back2.png");
+    padding-top: 200px;
+    text-align: center;
+    font-size: 45px;
+    height: 529px;
+    width: 100%;
+    color: white;
+    font-family: 'Alegreya', serif;
+    background-color: #16222A;
+    }
+
+.introduction h2{
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    }
+
+.work{
+    position: relative;
+    height: 1150px;
+    width: 100%;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+    }
+
+.largeWEB{
+    margin: 0;
+    position: absolute;
+    left: 60%;
+    font-size: 200px;
+    opacity: 0.8;
+    color: black;
+}
+
+.Information{
+    height: 200px;
+    width: 100%;
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+
+.Information h2{
+    padding: 30px 0px 0px 50px;
+    margin: 0;
+    font-family: 'Alegreya', serif;
+}
+.social{
+    text-decoration: none;
+    color: black;
+}
+.resources{
+    font-family: 'Alegreya', serif;
+    padding: 10px 0px 0px 5%;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#github{
+    position: absolute;
+    left: 3%;
+}
+
+#linkedin{
+    position: absolute;
+    left:3%
+}
+
+
+#typed-strings{
+    display: none;
+}
+html.sr .load-hidden {
+    visibility: hidden;
+}
+.project1{
+    border-radius: 10px;
+    width: 645px;
+    height: 300px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    background-image: url("project1.png");
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(224, 153, 153, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.09);
+
+
+
+}
+
+.project2{
+    border-radius: 10px;
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 36%;
+    left: 52%;
+    background-image: url("project2.png");
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(224, 153, 153, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.09);
+
+}
+
+.project3{
+    border-radius: 10px;
+    width: 645px;
+    height: 300px;
+    position: absolute;
+    top:65%;
+    left: 5%;
+    background-image: url("project3.png");
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(224, 153, 153, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+
+
+
+/* .container {
+	background: PaleGoldenRod;
+	height: 100vh;
+	padding: 20px;
+	text-align: center;
+} */
+
+.content {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+}
+
+.content p {
+	margin: 0 0 20px;
+}
+
+/* Arrow & Hover Animation */
+#more-arrows {
+	width: 75px;
+	height: 65px;
+}
+
+#more-arrows:hover polygon {
+	fill: #FFF;
+	transition: all .2s ease-out;
+}
+
+#more-arrows:hover polygon.arrow-bottom {
+	transform: translateY(-18px);
+}
+
+#more-arrows:hover polygon.arrow-top {
+	transform: translateY(18px);
+}
+
+polygon {
+	fill: #FFF;
+	transition: all .2s ease-out;
+}
+
+polygon.arrow-middle {
+	opacity: 0.75;
+}
+
+polygon.arrow-top {
+	opacity: 0.5;
+}
+
+
+/* nav bar section */
+.nav {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    line-height: 65px;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav div.logo a:hover {
+    opacity: 0.8;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.5rem;
+}
+
+.nav div.main_list ul li a:hover {
+    opacity: 0.8;
+}
+
